@@ -1,0 +1,27 @@
+* {
+	padding: 0 auto;
+	margin: 0 auto;
+}
+body {
+	background-color: transparent;
+	text-align: center;
+}
+
+header {
+	background-color: #00ba57;
+}
+
+nav.navbar {
+	background-color: #616161;
+}
+
+.base-mod {
+	background-image: url(img/bg.jpg)
+}
+
+footer{
+	background-color: #616161;
+	color: #343434;
+	margin: 20px;
+	padding: 10px;
+} 
