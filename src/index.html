@@ -1,245 +1,152 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-  <title>PokeData</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!--Compiled and minified CSS-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <title>Data Lovers</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.js" />
 </head>
-
 <body>
-  <!--<div id="root">-->
-    <header>
-      <div class="row">
-        <div class="col-12">
-          <img src ="img/logo.png" class="img-fluid" alt="Responsive image">
-        </div>
-      </div>
-
-
-      <nav class="navbar">
-        <form class="form-inline my-2 my-lg-0">
-          <button class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#modal1">Funcionamiento</button>
-          <button class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#modal2">Instrucciones de uso</button>
-          <button class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#modal3">Algo más</button>
-        </form>
-      </nav>
-      
-      <!-- Modal1 -->
-      <div class="modal fade" id="modal1" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modal-who">Funcionamiento</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>POkemon</p>
-
-              
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
+  <header>
+    <img src="img/logo.png" alt="">
+    <!--Navbar-->
+    <nav class="navbar-header">
+      <form class="form-inline my-2 my-lg-0">
+        <button class="btn-nav" type="button" data-toggle="modal" data-target="#modal1">Funcionamiento</button>
+        <button class="btn-nav" type="button" data-toggle="modal" data-target="#modal2">Instrucciones de uso</button>
+        <button class="btn-nav" type="button" data-toggle="modal" data-target="#modal3">Algo más</button>
+      </form>
+    </nav>
+    <!--Modal1-->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-function">Funcionamiento</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Esta App muestra información sobre los Pokemones de la región de Kanto. Puedes encontrar más información sobre el juego Pokemon Go <a href="https://www.pokemon.com/us/pokedex/" target="_blank">AQUÍ</a>.</p>
+            <p>Podrás buscar Pokemones según su categoría.</p>
+            <p>Y ordenarlos según su número y/o alfabéticamente.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
-
-      <!-- Modal2 -->
-      <div class="modal fade" id="modal2" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modal-instructions">Instrucciones de uso</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>Pokemon Go. Puedes encontrar más información <a href="https://pokemaster.es/guias/guia-pokemon-go/" target="_blank">AQUÍ</a>.</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
+    </div>
+    <!--Modal2-->
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-introduction">Introducción al juego</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>¿Acabas de empezar a jugar a Pokémon GO y no sabes qué hacer o cómo optimizar el tiempo invertido en el juego? ¿Ya fuiste jugador pero quieres re-engancharte y te sientes un poco perdido? ¡Aquí te resumimos las claves para ponerte al día en este juego!</p>
+            <p>Pokémon GO consiste en buscar, capturar, y luchar con los personajes de la saga Pokémon.</p>
+            <ul class="subtitle-modal2">
+              <li>Lo primero que tienes que hacer seas de Android o iOS, es descargar una app llamada PokéGenie. Es una de las mejores app que te indican los IVs del Pokémon atrapado. Los IVs son las estadísticas base del Pokémon y toman valores de 0 a 15, cuanto más altas sean mejor será el Pokémon. Los PC o Puntos de Combate son importantes, pero más aún lo son los IVs.</li>
+              <li>Captura a todo Pokémon que veas. Cada captura te dará Polvoestelar (útil para subir los PC de los Pokémon), caramelos (siven para evolucionar al Pokémon) y experiencia (para subir de nivel y conseguir PC más altos).</li>
+              <li>Cuantos más Pokémon captures de un determinado tipo, desbloquearás medallas que te otorgarán bonificaciones que te permitirán capturar los Pokémon de ese tipo mucho más fácil.</li>
+              <li>Juega todos los días para conseguir las bonificaciones diarias como Primera Captura del Día y Primera Poképarada del Día ya que tras 7 días consecutivos obtendrás experiencia adicional e incluso objetos raros evolutivos.</li>
+            </ul>
+            <hr>
+            <p>Esta guía Pokemón te ayudará a introducirte en el mundo Pokemón.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
-
-      <!-- Modal3 -->
-      <div class="modal fade" id="modal3" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modal-algo-mas">Algo más</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>Algo más</p>
-
-              
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
+    </div>
+    <!--Modal3-->
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-more">Algo más</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Algo más.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
-    </header>
-  <!--</div>-->
+    </div>
+  </header>
 
-  <div class="base-mod">
-     <!--<div class="row" id="group">
-                <div class="col s9 15 offset-s2 offset-l1">
-                    <form name="formType" class="input-field" autocomplete="off">
-                        <select id="type" class="select">
-                          <option value="0" selected="selected">Tipo</option>
-                          <option value="Grass">Planta</option>
-                          <option value="Poison">Veneno</option>
-                          <option value="Fire">Fuego</option>
-                          <option value="Bug">Bicho</option>
-                          <option value="Flying">Volador</option>
-                          <option value="Normal">Normal</option>
-                          <option value="Electric">Eléctrico</option>
-                          <option value="Ground">Tierra</option>
-                          <option value="Water">Agua</option>
-                          <option value="Fighting">Lucha</option>
-                          <option value="Psychic">Psíquico</option>
-                          <option value="Rock">Roca</option>
-                          <option value="Ghost">Fantasma</option>
-                          <option value="Ice">Hielo</option>
-                          <option value="Dragon">Dragón</option>
-                      </select>
-                  </form>
-              </div>
-
-  </div>-->
-
-<section class="type">
-  <h1>Categorías</h1>
+  <div id="root">
+   <section class="welcome">
+    <h2 class="subtitle">En PokeData puedes conocer todo sobre tus pokemones favoritos</h2>
+  </section>
+  <section class="enter">
+    <h4>Ingresa tu nombre</h4>
+    <input id="name" type="text" placeholder="ingresa tu nombre" value="">
+    <button class="btn">Ingresar</button>
+  </section>
+</div>
+<div id="category">
+  <button class="btn">Ingresar</button>
+</div>
+<div id="todos-los-pokemones">
+ <div class="row" id="group">
+  <div class="col s9 15 offset-s2 offset-l1">
+    <form name="formType" class="input-field" autocomplete="off">
+      <select id="type" class="select">
+        <option value="0" selected="selected">Tipo</option>
+        <option value="Grass">Planta</option>
+        <option value="Poison">Veneno</option>
+        <option value="Fire">Fuego</option>
+        <option value="Bug">Bicho</option>
+        <option value="Flying">Volador</option>
+        <option value="Normal">Normal</option>
+        <option value="Electric">Eléctrico</option>
+        <option value="Ground">Tierra</option>
+        <option value="Water">Agua</option>
+        <option value="Fighting">Lucha</option>
+        <option value="Psychic">Psíquico</option>
+        <option value="Rock">Roca</option>
+        <option value="Ghost">Fantasma</option>
+        <option value="Ice">Hielo</option>
+        <option value="Dragon">Dragón</option>
+      </select>
+    </form>
+  </div>
+</div>
+</div>
+<div class="col s9 15 offset-s2">
+  <form name="formSelect" class="input-field" autocomplete="off">
+    <select id="order" class="select">
+      <option value="0" selected="selected">Orden</option>
+      <option value="az">A-Z</option>
+      <option value="za">Z-A</option>
+    </select>
+  </form>
+</div>
+</div>
+<section id="pokemones">
+  <div class="container">
+    <div id="all-data" class="row">
+    </div>
+  </div>
 </section>
-
-<section class="container-fluid">
-  <section class="card-columns">
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image Planta">
-    <div class="card-body">
-      <h5 class="card-title">Planta</h5>
-    </div>
-  </div>
-
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image Veneno">
-    <div class="card-body">
-      <h5 class="card-title">Veneno</h5>
-    </div>
-  </div>
-
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image Fuego">
-    <div class="card-body">
-      <h5 class="card-title">Fuego</h5>
-    </div>
-  </div>
-
-   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image Bicho">
-    <div class="card-body">
-      <h5 class="card-title">Bicho</h5>
-    </div>
-  </div>
-
- <div class="card">
-    <img class="card-img-top" src="..." alt="Card image Volador">
-    <div class="card-body">
-      <h5 class="card-title">Volador</h5>
-    </div>
-  </div>
-
-   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image Normal">
-    <div class="card-body">
-      <h5 class="card-title">Normal</h5>
-    </div>
-  </div>
-
-   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image Eléctrico">
-    <div class="card-body">
-      <h5 class="card-title">Eléctrico</h5>
-    </div>
-  </div>
-
-   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image Tierra">
-    <div class="card-body">
-      <h5 class="card-title">Tierra</h5>
-    </div>
-  </div>
-
-   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image Agua">
-    <div class="card-body">
-      <h5 class="card-title">Agua</h5>
-    </div>
-  </div>
-
-   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image Lucha">
-    <div class="card-body">
-      <h5 class="card-title">Lucha</h5>
-    </div>
-  </div>
-
-   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image Psíquico">
-    <div class="card-body">
-      <h5 class="card-title">Psíquico</h5>
-    </div>
-  </div>
-
-   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image Roca">
-    <div class="card-body">
-      <h5 class="card-title">Roca</h5>
-    </div>
-  </div>
-
-   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image Fantasma">
-    <div class="card-body">
-      <h5 class="card-title">Fantasma</h5>
-    </div>
-  </div>
-
-   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image Hielo">
-    <div class="card-body">
-      <h5 class="card-title">Hielo</h5>
-    </div>
-  </div>
-
-   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image Dragón">
-    <div class="card-body">
-      <h5 class="card-title">Dragón</h5>
-    </div>
-  </div>
-
-</section>
-</section>
+</div>
 
 
-  
-
-  <footer>
-<div class="container-fluid">
+<footer>
+  <div class="container-fluid">
     <div style="width: 100%">
       © 2019
       <a>Yany-Dani</a>
@@ -248,8 +155,15 @@
 
 </div>
 
-    <script src="./data/pokemon/pokemon.js"></script>
-    <script src="data.js"></script>
-    <script src="main.js"></script>
-  </body>
-  </html>
+<!-- Enlaces de scripts-->
+<script src="categorias.html"></script>
+<!-- <script src="./data/injuries/injuries.js"></script> -->
+<script src="./data/pokemon/pokemon.js"></script>
+<!-- <script src="./data/steam/steam.js"></script> -->
+<!-- <script src="./data/worldbank/worldbank.js"></script> -->
+<!-- <script src="./data/lol/lol.js"></script> -->
+<script src="data.js"></script>
+<script src="main.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
