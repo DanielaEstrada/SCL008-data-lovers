@@ -55,7 +55,7 @@ mainBox.innerHTML = "";
     <a class="buttonCard" id="infobtn${element.id}" data-target="modal1">
     <div class="card-title">#${element.num} ${element.name}</div>
     <div class="card-image" style="overflow: initial">
-    <img class="responsive-img" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${element.num}.png">
+    <img class="responsive-img" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${element.num}.png" alt="card-pokemon">
     </div>
     <div class="card-content">
     <p>${element.type.join(" - ")}</p>
