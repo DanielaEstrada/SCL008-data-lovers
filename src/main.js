@@ -6,7 +6,7 @@ btnCategorias.addEventListener('click', () => {
   document.getElementById('root').innerHTML = '';
   document.getElementById('category').innerHTML = '';
   document.getElementById('root').innerHTML += `<h1>Categorías</h1>
-  <h3>Bienvenido ${username}</h3>
+  <h4>Bienvenido ${username}</h4>
   <button class="water"><img src="img/Agua.png" alt="Categoria Agua"></button>
   <button class="fire"><img src="img/Fuego.png" alt="categoria Fuego"></button>
   <button class="grass"><img src="img/Planta.png" alt="Categoria Planta"></button>
