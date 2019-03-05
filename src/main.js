@@ -59,6 +59,7 @@ mainBox.innerHTML = "";
     </div>
     <div class="card-content">
     <p>${element.type.join(" - ")}</p>
+    <p>Debilidad con Pókemon tipo: ${element.weaknesses}</p>
     </div>
     </a>
     </div>
