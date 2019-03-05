@@ -22,7 +22,7 @@ btnCategorias.addEventListener('click', () => {
   <button class="poison"><img src="img/Veneno.png" alt="Categoria Veneno"></button>
   <button class="bug"><img src="img/Insecto.png" alt="Categoria Insecto"></button>
   <button class="flying"><img src="img/Volador.png" alt="Categoria Volador"></button>`
- })
+})
 
 const btnAgua = document.getElementsByTagName('button')[1];
 
@@ -66,9 +66,9 @@ mainBox.innerHTML = "";
   });
 
   //Filtra pokemones por el tipo seleccionado e imprime las tarjetas respectivas
-document.getElementById("type").addEventListener("change", () => {
+  document.getElementById("type").addEventListener("change", () => {
 
-  //Limpia div root
+  //Limpia div all-pokemones
   mainBox.innerHTML = "";
 
 
@@ -89,6 +89,27 @@ document.getElementById("type").addEventListener("change", () => {
   createTotal = document.createElement("h2");
   mainBox.appendChild(createTotal);
   createTotal.innerHTML = `Total de tu selección: ${totalPokemon}`;
+});
+
+//Organiza los pokemones por el orden deseado e imprime las tarjetas respectivas
+document.getElementById("order").addEventListener("change", () => {
+
+  //Limpia div all-pokemones
+  mainBox.innerHTML = "";
+
+  //Funcion que filtra para confirmar el tipo deseado 
+  const dataOnFilter = window.pokemonData.filterData(data, selectedType);
+
+  //Funcion que organiza dependiendo del orden seleccionado
+  const newData = window.pokemonData.sortData(dataOnFilter, selectedOrder);
+
+  //Calcula el total de pokemones del tipo seleccionado
+  const totalPokemon = window.pokemonData.computeStats(newData);
+
+//Crea enunciado del total de pokemones y lo imprime antes de las tarjetas
+createTotal = document.createElement("h2");
+mainBox.appendChild(createTotal);
+createTotal.innerHTML = `Total de tu selección: ${totalPokemon}`;
 });
 
 //crear una función que muestre las tarjetas de la newData
