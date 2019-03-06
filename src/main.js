@@ -1,5 +1,5 @@
 /* Manejo del DOM */
-const btnCategorias = document.getElementsByTagName('button')[0];
+const btnCategorias = document.getElementById('btn');
 
 btnCategorias.addEventListener('click', () => {
   let username= document.getElementById("name").value
@@ -24,7 +24,7 @@ btnCategorias.addEventListener('click', () => {
   <button class="flying"><img src="img/Volador.png" alt="Categoria Volador"></button>`
  })
 
-const btnAgua = document.getElementsByTagName('button')[1];
+const btnAgua = document.getElementById('btn1');
 
 btnAgua.addEventListener('click', () => {
   document.getElementById('root').innerHTML = '';
@@ -33,63 +33,62 @@ btnAgua.addEventListener('click', () => {
 
 })
 //Módulo pokemones
-const data = window.POKEMON.pokemon;
+//const data = window.POKEMON.pokemon;
 
-let mainBody = document.getElementsByTagName("body")[0];
-let header = document.getElementById("header");
-let mainBox = document.getElementById("all-data");
+//let mainBody = document.getElementsByTagName("body")[0];
+//let header = document.getElementById("header");
+//let mainBox = document.getElementById("all-data");
 
 //Imprime tarjetas de todos los pokemones al cargar la página
-window.onload = function () {
+//window.onload = function () {
 //window.onload = showData(data)
 
 //limpia div root
-mainBox.innerHTML = "";
+//mainBox.innerHTML = "";
 
   //Recorre la data y agrega cada tarjeta con la informacion requerida a mainBox
-  data.forEach(element => {
-    mainBox.innerHTML +=
-    `<div class="col s7 m4 l3">
-    <div class="card small">
-    <a class="buttonCard" id="infobtn${element.id}" data-target="modal1">
-    <div class="card-title">#${element.num} ${element.name}</div>
-    <div class="card-image" style="overflow: initial">
-    <img class="responsive-img" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${element.num}.png" alt="card-pokemon">
-    </div>
-    <div class="card-content">
-    <p>${element.type.join(" - ")}</p>
-    </div>
-    </a>
-    </div>
-    </div>`;
-  });
+  //data.forEach(element => {
+    //mainBox.innerHTML +=`<div class="col s7 m4 l3">
+    //<div class="card small">
+    //<a class="buttonCard" id="infobtn${element.id}" data-target="modal1">
+    //<div class="card-title">#${element.num} ${element.name}</div>
+    //<div class="card-image" style="overflow: initial">
+    //<img class="responsive-img" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${element.num}.png" alt="card-pokemon">
+    //</div>
+    //<div class="card-content">
+    //<p>${element.type.join(" - ")}</p>
+    //</div>
+    //</a>
+    //</div>
+    //</div>`;
+  //});
 
   //Filtra pokemones por el tipo seleccionado e imprime las tarjetas respectivas
-document.getElementById("type").addEventListener("change", () => {
+//document.getElementById("type").addEventListener("change", () => {
 
   //Limpia div root
-  mainBox.innerHTML = "";
+  //mainBox.innerHTML = "";
 
 
   //Trae el valor del orden y el tipo seleccionado
-  let selectedOrder = document.getElementById("order").value;
-  let selectedType = document.getElementById("type").value;
+  //let selectedOrder = document.getElementById("order").value;
+  //let selectedType = document.getElementById("type").value;
 
   //Funcion que organiza para confirmar el orden deseado 
-  const dataOnSort = window.pokemonData.sortData(data, selectedOrder);
+  //const dataOnSort = window.pokemonData.sortData(data, selectedOrder);
 
   //Funcion que filtra dependiendo del tipo seleccionado
-  const newData = window.pokemonData.filterData(dataOnSort, selectedType);
+  //const newData = window.pokemonData.filterData(dataOnSort, selectedType);
 
   //Calcula el total de pokemones del tipo seleccionado
-  const totalPokemon = window.pokemonData.computeStats(newData);
+  //const totalPokemon = window.pokemonData.computeStats(newData);
 
   //Crea enunciado del total de pokemones y lo imprime antes de las tarjetas
-  createTotal = document.createElement("h2");
-  mainBox.appendChild(createTotal);
-  createTotal.innerHTML = `Total de tu selección: ${totalPokemon}`;
-});
+  //createTotal = document.createElement("h2");
+  //mainBox.appendChild(createTotal);
+  //createTotal.innerHTML = `Total de tu selección: ${totalPokemon}`;
+//});
 
 //crear una función que muestre las tarjetas de la newData
-const showPokeData = window.pokemonData(newData, showPokeData);
-};
+//const showPokeData = window.pokemonData(newData, showPokeData);
+//};
