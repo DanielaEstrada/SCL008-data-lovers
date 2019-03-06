@@ -79,10 +79,10 @@ Una vez creado este diseño simple se realiza el primer testeo.
 
 ![Flujo]()
 
-![](poke1.pdf)
-![](poke2.pdf)
-![](poke3.pdf)
-![](poke4.pdf)
+![]()
+![]()
+![]()
+![]()
 
 #### Testeos de usabilidad
 
@@ -126,11 +126,9 @@ Pruebas unitarias para las funciones encargadas de _procesar_, _filtrar_ y _orde
 
 ##  ✏️ Planificación
 
-Es posible ver la planificación del proyecto en el siguiente link:
-
-(https://github.com/DanielaEstrada/SCL008-data-lovers/projects)
+Es posible ver la planificación del proyecto en el siguiente [link](https://github.com/DanielaEstrada/SCL008-data-lovers/projects)
 
 ## Contenido de referencia
 
-(http://www.pokemon.com/)
+http://www.pokemon.com/
 
