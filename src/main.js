@@ -23,7 +23,6 @@ const showData = (data) =>{
 data.forEach(element => {
   resultshowdata=pokeFilter.innerHTML ='';
   resultshowdata=pokeFilter.innerHTML +=
-  
   `<div class="col s7 m4 l3">
     <div class="card small">
     <a class="buttonCard" id="infobtn${element.id}" data-target="modal1">
@@ -45,7 +44,7 @@ let select = document.getElementById("type");
 select.addEventListener("change", () => {
   let condition = select.value;
   //console.log(condition);
-  let resultFilter = filterData(data,condition);
+  let resultFilter = window.filterData(data,condition);
  pokeFilter.innerHTML="";//limpio el div
   resultFilter.forEach(element => {
 
@@ -67,3 +66,5 @@ select.addEventListener("change", () => {
 
 
 });
+
+window.onload = showData(data);
