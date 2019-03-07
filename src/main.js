@@ -58,11 +58,14 @@ select.addEventListener("change", () => {
     <div class="card-title">
     <h2>${element.name}</h2>
     </div>
+    <div class="image">
     <img src=" ${element.img} ">
     </div>
     <h4> #${element.num}</h4>
     <h4>Tipo:${element.type.join(" - ")}</h4>
-    <p>Debilidad con Pókemon tipo: ${element.weaknesses}</p>  
+    <p class="datos2">Posibilidad de encontrarlo: ${element.spawn_chance}%</p>
+    <p class="datos2">Hora de mayor actividad: ${element.spawn_time}hrs.</p>
+    <p class="datos2">Debilidad con Pókemon tipo: ${element.weaknesses}</p>  
     </div>
     </div>
     </div>`

@@ -13,7 +13,7 @@ body {
 
 .logo{
     float: left;
-width: 30%; 
+    width: 30%; 
 }
 
 header {
@@ -30,7 +30,7 @@ nav.navbar {
 }
 
 #page1 {
-position: center;
+    position: center;
 }
 
 #group{
@@ -47,6 +47,19 @@ position: center;
 .pokemones{
     background: linear-gradient(145.88deg, #4ea0ef 28.3%, #4ea0ef 46.48%);
     padding: 2% 0;
+}
+
+.card {
+    width: 270px;
+    height: 360px;
+    box-shadow: 0 20px 50px rgba(0,0,0,.1);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+} 
+
+.datos2 {
+    font-size: small;
 }
 
 footer{
