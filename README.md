@@ -96,7 +96,9 @@ Y procedemos a realizar las modificaciones correspondientes con las sugerencias 
 
 #### Prototipo de alta fidelidad
 
-[Figma](https://www.figma.com/proto/TRXMLNAnAjV03KKYUbFxaNol/Prototipo?node-id=1%3A4&viewport=427%2C322%2C0.5&scaling=scale-down)
+[Figma](https://www.figma.com/proto/TRXMLNAnAjV03KKYUbFxaNol/Prototipo?node-id=1%3A4&viewport=216%2C323%2C0.25&scaling=scale-down)
+
+[Zeplin] (zpl.io/2jQP5mx)
 
 ## Implementación de la Interfaz de Usuario (HTML/CSS/JS)
 
