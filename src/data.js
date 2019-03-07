@@ -4,6 +4,20 @@ window.pokemonData = {
   sortData: (data, selectedOrder) => {
 
     //Si el orden seleccionado es z-a, organiza y retorna la data con el nuevo orden
+    if (selectedOrder === "az") {
+      const sortedData = data;
+      data.sort(function (a, b) {
+        if (a.name < b.name) {
+          return -1;
+        }
+        if (a.name > b.name) {
+          return 1;
+        }
+      })
+      return sortedData;
+    }
+
+//Si el orden seleccionado es z-a, organiza y retorna la data con el nuevo orden
     if (selectedOrder === "za") {
       const sortedData = data;
       data.sort(function (a, b) {
@@ -16,7 +30,6 @@ window.pokemonData = {
       })
       return sortedData;
     }
-
   },
 
 //Funcion de filtro.

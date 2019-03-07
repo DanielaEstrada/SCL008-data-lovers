@@ -6,6 +6,7 @@
 body {
     background-image: url(img/bg.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100%; 
     height: 100%;
 }
@@ -16,7 +17,7 @@ width: 30%;
 }
 
 header {
-	background-color: #00ba57;
+	background-image: url(img/header.png);
 	text-align: center;
 }
 
@@ -24,9 +25,12 @@ header {
 	text-align: center;
 }
 
-
 nav.navbar {
 	background-color: #616161;
+}
+
+#page1 {
+position: center;
 }
 
 #group{
