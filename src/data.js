@@ -4,4 +4,4 @@ function filterData(data, condition) {
       return element.type.includes(condition)
     })
     return filteredData;
-  };
+};
