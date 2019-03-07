@@ -7,13 +7,11 @@ window.onload = () => {
  document.getElementById("page2").style.display ="none";
  document.getElementById("page3").style.display="none";
 }
-//document.getElementById("pagina2").addEventListener("click",() => {
-//let username= document.getElementById("name").value
-//document.getElementById("page2").innerHTML = "hola " + username;
+ document.getElementById("pagina2").addEventListener("click",() => {
  document.getElementById("page1").style.display="none";
  document.getElementById("page2").style.display ="block";
  document.getElementById("page3").style.display="none";
- //});
+ });
 document.getElementById("typecards").addEventListener("click",() => {
  document.getElementById("page1").style.display="none";
  document.getElementById("page2").style.display ="none";
@@ -23,6 +21,7 @@ document.getElementById("typecards").addEventListener("click",() => {
 const showData = (data) =>{
   let resultshowdata=" ";
 data.forEach(element => {
+  resultshowdata=pokeFilter.innerHTML ='';
   resultshowdata=pokeFilter.innerHTML +=
   
   `<div class="target col s7 m4 l3">
@@ -73,9 +72,3 @@ select.addEventListener("change", () => {
 
 
 });
-
-
-
-
-
-
