@@ -41,6 +41,10 @@ También es posible ordenar los Pokemones alfabéticamente y conocer el total po
 
  La manera más fácil de buscar datos es usando los seleccionadores de parámetros como el tipo y orden alfabético ubicados en la parte central de la página.
 
+### Flujo
+
+![Flujo](flujo.png)
+
 ## 👦👧 Estudio de usuarios
 
 ### Historias de usuarios
@@ -76,8 +80,6 @@ Una vez creado este diseño simple se realiza el primer testeo.
 
 
 #### Prototipo de baja fidelidad
-
-![Flujo]()
 
 ![]()
 ![]()
