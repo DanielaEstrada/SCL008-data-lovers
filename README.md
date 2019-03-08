@@ -49,7 +49,7 @@ También es posible ordenar los Pokemones alfabéticamente y conocer el total po
 
 ### Historias de usuarios
 
-![Planilla de historias de usuario](https://docs.google.com/spreadsheets/d/1i4l8Fr6Ul6DRAT3bQSX3cb5x1CDxAXzaT20wbmMJpVM/edit?usp=sharing)
+[Planilla de historias de usuario](https://docs.google.com/spreadsheets/d/1i4l8Fr6Ul6DRAT3bQSX3cb5x1CDxAXzaT20wbmMJpVM/edit?usp=sharing)
 
 1. Como jugador principiante, quiero conocer a los pokemones principales del juego, para poder jugar por primera vez. 
   
