@@ -21,22 +21,28 @@ header {
 	text-align: center;
 }
 
-.navbar-header {
-	text-align: center;
-}
-
-nav.navbar {
-	background-color: #616161;
+nav {
+	position: center;
+    background-color: #616161;	
 }
 
 #page1 {
     position: center;
 }
 
+.welcome {
+    text-align: center;
+}
+#pagina2 {
+    background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+
+}
+
 #group{
-    margin-top: 10%;
-    background: #5A5A5A;
-    width: 50%;
+    margin-top: 5%;
+    width: 100%;
     margin-bottom: 0;
 }
 
