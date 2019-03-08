@@ -40,18 +40,9 @@ nav.navbar {
     margin-bottom: 0;
 }
 
-.select{
-    display: block;
-}
-
-.pokemones{
-    background: linear-gradient(145.88deg, #4ea0ef 28.3%, #4ea0ef 46.48%);
-    padding: 2% 0;
-}
-
 .card {
     width: 270px;
-    height: 360px;
+    height: 390px;
     background-color: #f2f1f2;
     box-shadow: 0 20px 50px rgba(0,0,0,.1);
     border-radius: 10px;
