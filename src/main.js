@@ -72,4 +72,12 @@ select.addEventListener("change", () => {
      });
 
 
+
+/*let total = document.getElementById("root");
+let createTotal;
+
+createTotal = document.createElement("h5");
+total.appendChild(createTotal);
+createTotal.innerHTML = `Total selección: ${totalPokemon}`;*/
 });
+
