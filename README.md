@@ -88,11 +88,16 @@ Una vez creado este diseño simple se realiza el primer testeo.
 
 #### Testeos de usabilidad
 
-Se realiza pruebas con seis usuarios, quienes prueban la página y:
+Se realiza pruebas con seis usuarios, los cuales deben realizar las siguientes tareas:
+- Buscar según tipo.
+- Informarse sobre el juego Pokemon GO.
+- Informarse sobre hora de mayor actividad de atrape.
 
 Usuario1: No es jugador de Pokemon Go, y no tiene una cuenta creada y/o nombre de usuario asociado al juego. Por lo tanto el input de ingreso queda abierto para poder ingresar sin registrarse.
 
 Usuario2: Es jugador de Pokemon Go y sugiere poder vizualizar las mismas imágenes del juego para cada categoría. Entonces, agregamos tarjetas con imágenes de cada categoría correspondiente al tipo de Pokemón. 
+
+Usuario3: Es jugador de Pokemon Go
 
 Y procedemos a realizar las modificaciones correspondientes con las sugerencias de los usuarios testeados, y los cambios generados son los siguientes:
 
