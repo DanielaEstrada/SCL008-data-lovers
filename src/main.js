@@ -18,7 +18,7 @@ document.getElementById("typecards").addEventListener("click",() => {
  document.getElementById("page3").style.display="block";
 });
 
-const showData = (data) =>{
+window.showData = (data) =>{
   let resultshowdata=" ";
 data.forEach(element => {
   resultshowdata=pokeFilter.innerHTML ='';

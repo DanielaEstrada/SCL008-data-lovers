@@ -49,13 +49,15 @@ También es posible ordenar los Pokemones alfabéticamente y conocer el total po
 
 ### Historias de usuarios
 
-1. **Valentina** 
+![Planilla de historias de usuario](https://docs.google.com/spreadsheets/d/1i4l8Fr6Ul6DRAT3bQSX3cb5x1CDxAXzaT20wbmMJpVM/edit#gid=0)
+
+1. Como jugador principiante, quiero conocer a los pokemones principales del juego, para poder jugar por primera vez. 
   
-2. **Joaquín**   
+2. Como jugador principiante, quiero conocer la modalidad del juego, para jugar por primera vez.    
   
-3. **Rodrigo** 
+3. Como jugador promedio, quiero poder filtrar los pokemones por categoría, para poder conocer las capacidades de los pokemones de aquella categoría.
   
-4. **Eduardo** 
+4. Como jugador habitual, quiero conocer el tipo de debilidad de cada pokemon, para poder elejir a mi oponente de batalla en el juego.
 
 ### Encuestas
 
@@ -81,10 +83,10 @@ Una vez creado este diseño simple se realiza el primer testeo.
 
 #### Prototipo de baja fidelidad
 
-![]()
-![]()
-![]()
-![]()
+![MockUp Inicio](mock1.png)
+![MockUp Categorías](mock2.png)
+![MockUp ModalNavbar](mock3.png)
+![MockUp Tarjeta-Pokemon-seleccionado](mock4.png)
 
 #### Testeos de usabilidad
 
@@ -93,11 +95,12 @@ Se realiza pruebas con seis usuarios, los cuales deben realizar las siguientes t
 - Informarse sobre el juego Pokemon GO.
 - Informarse sobre hora de mayor actividad de atrape.
 
-Usuario1: No es jugador de Pokemon Go, y no tiene una cuenta creada y/o nombre de usuario asociado al juego. Por lo tanto el input de ingreso queda abierto para poder ingresar sin registrarse.
+Usuario1: No es jugador de Pokemon Go, y no tiene una cuenta creada y/o nombre de usuario asociado al juego. Por lo tanto el input de ingreso queda abierto para poder ingresar sin registrarse. Y lo modificamos por el botón "Ingresar".
 
 Usuario2: Es jugador de Pokemon Go y sugiere poder vizualizar las mismas imágenes del juego para cada categoría. Entonces, agregamos tarjetas con imágenes de cada categoría correspondiente al tipo de Pokemón. 
 
-Usuario3: Es jugador de Pokemon Go
+Usuario3: Es jugador de Pokemon Go y sugiere agregar información adicional de los Pokemones, como por ejemplo: "Posibilidades de atrape".
+Entonces, agregamos esta información en cada una de las tarjetas de los pokemones.
 
 Y procedemos a realizar las modificaciones correspondientes con las sugerencias de los usuarios testeados, y los cambios generados son los siguientes:
 
@@ -110,7 +113,7 @@ Pablo 36 años (https://www.useloom.com/share/82cdb481f937405193167e6651b60cc8)
 
 [Figma](https://www.figma.com/proto/TRXMLNAnAjV03KKYUbFxaNol/Prototipo?node-id=1%3A4&viewport=216%2C323%2C0.25&scaling=scale-down)
 
-[Zeplin] (zpl.io/2jQP5mx)
+[Zeplin](zpl.io/2jQP5mx)
 
 ## Implementación de la Interfaz de Usuario (HTML/CSS/JS)
 
