@@ -24,7 +24,7 @@ Este sitio ha sido diseñado para facilitar la búsqueda y visualización de la 
 
 
 ## 👀 Esta página web es posible visualizarla en el siguiente link
-https://danielaestrada.github.io/SCL008-data-lovers/index.html
+(https://danielaestrada.github.io/SCL008-data-lovers/src/index.html)
 
 ## 💡 Modo de uso
 
