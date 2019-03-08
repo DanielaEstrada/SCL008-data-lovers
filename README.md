@@ -80,7 +80,6 @@ Barra de búsqueda. Y visualizacón de los 151 Pokemones de la región de Kanto.
 
 Una vez creado este diseño simple se realiza el primer testeo.
 
-
 #### Prototipo de baja fidelidad
 
 ![MockUp Inicio](mock1.png)
@@ -108,7 +107,6 @@ Máximo 8 años (https://www.useloom.com/share/e6f6bbd892e4446cba27eadb615cdf05)
 
 Pablo 36 años (https://www.useloom.com/share/82cdb481f937405193167e6651b60cc8)
 
-
 #### Prototipo de alta fidelidad
 
 [Figma](https://www.figma.com/proto/TRXMLNAnAjV03KKYUbFxaNol/Prototipo?node-id=1%3A4&viewport=216%2C323%2C0.25&scaling=scale-down)
@@ -127,19 +125,15 @@ Pablo 36 años (https://www.useloom.com/share/82cdb481f937405193167e6651b60cc8)
 
 La lógica del proyecto está implementada completamente en JavaScript(ES6), HTML y CSS.   
 
-
 ## Resúmen del código
 
 El código creado en JavaScript(ES6) es una fórmula que permite visualizar la data, filtrarla, ordenarla, y realizar cálculos específicos como el promedio, el máximo y/o el mínimo, que permiten mostrar información aún más relevante a los usuarios.
 
 También fueron incorporados estilos de *Boostrap* (barra de navegación y modales).
 
-
 ## Pruebas unitarias
 
 Pruebas unitarias para las funciones encargadas de _procesar_, _filtrar_ y _ordenar_ la data, así como _calcular_ estadísticas. Estas funciones están presentes en la carpeta data.js y son llamadas desde la carpeta main.js, donde también están presentes las tarjetas tipo y de cada uno de los 151 Pokemon de la región de Kanto.
-
-
 
 ##  ✏️ Planificación
 
