@@ -94,9 +94,16 @@ Usuario2: Es jugador de Pokemon Go y sugiere poder vizualizar las mismas imágen
 
 Y procedemos a realizar las modificaciones correspondientes con las sugerencias de los usuarios testeados, y los cambios generados son los siguientes:
 
+Máximo 8 años (https://www.useloom.com/share/e6f6bbd892e4446cba27eadb615cdf05)
+
+Pablo 36 años (https://www.useloom.com/share/82cdb481f937405193167e6651b60cc8)
+
+
 #### Prototipo de alta fidelidad
 
-[Figma](https://www.figma.com/proto/TRXMLNAnAjV03KKYUbFxaNol/Prototipo?node-id=1%3A4&viewport=427%2C322%2C0.5&scaling=scale-down)
+[Figma](https://www.figma.com/proto/TRXMLNAnAjV03KKYUbFxaNol/Prototipo?node-id=1%3A4&viewport=216%2C323%2C0.25&scaling=scale-down)
+
+[Zeplin] (zpl.io/2jQP5mx)
 
 ## Implementación de la Interfaz de Usuario (HTML/CSS/JS)
 
